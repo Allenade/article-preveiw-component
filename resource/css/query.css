@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@media screen and (max-width: 768px) {
+
+    :root {
+  
+      /**
+       * Typography 
+       */
+      
+    
+      --very-dark-Grayish: hsl(217, 19%, 35%);
+      --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+      --Grayish-Blue: hsl(212, 23%, 69%);
+      --light-Grayish-Blue:hsl(210, 46%, 95%)
+    }
+  
+    /**
+     * contanier responsive
+     */
+  .container {
+    flex-direction: column;
+    max-width: 300px;
+    overflow: hidden;
+    
+  }
+  .img-box{
+   
+    height: 180px;
+    border-radius: 0;
+  }
+  .text-content{
+    padding:30px 28px 23px;
+  }
+  .avatar-name{
+    font-size: 14px;
+  }
+  .share-button {
+background-color: var(--Grayish-Blue);
+  border-radius: 20px;
+
+  }
+  .title {
+    font-size: 17px;
+  }
+  .sub-text{
+    font-size: 15px;
+  }
+  .share {
+ 
+    z-index: 1; 
+    
+  }
+  .share-option{
+    padding: 50px 100px;
+   top: 1px;
+ 
+   
+  
+   border-radius: 0;
+ 
+    z-index: -1;
+    
+
+  }
+  .share-option ion-icon  {
+    margin-bottom: 56px;
+    margin-right: 20px;
+  }
+  .share-option span {
+    margin-bottom: 57px;
+    
+  }
+ 
+  }
